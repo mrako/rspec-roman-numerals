@@ -1,6 +1,6 @@
 require "roman_numeral"
 
-describe RomanNumeral do
+describe "roman numeral converter" do
   subject { RomanNumeral }
 
   it { subject.convert(1).should == "I" }
