@@ -1,7 +1,7 @@
-require "roman_numerals"
+require "roman_numeral"
 
-describe RomanNumerals do
-  subject { RomanNumerals }
+describe RomanNumeral do
+  subject { RomanNumeral }
 
   it { subject.convert(1).should == "I" }
   it { subject.convert(2).should == "II" }
