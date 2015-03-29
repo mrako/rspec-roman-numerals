@@ -1,4 +1,10 @@
 source "https://rubygems.org"
 
-gem "guard"
 gem "rspec"
+
+gem "guard"
+gem "guard-rspec"
+
+group :development do
+  gem 'ruby_gntp'
+end
