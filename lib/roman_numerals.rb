@@ -1,6 +1,5 @@
 class RomanNumerals
   ROMAN_MAPPING = {
-      100 => "C",
       50 => "L",
       10 => "X",
       9 => "IX",
