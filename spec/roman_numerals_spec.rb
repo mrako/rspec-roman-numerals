@@ -24,4 +24,8 @@ describe "Roman Numerals Converter" do
   it "should return 'L' for 50" do
     expect(subject.convert(50)).to eq('L')
   end
+  
+  it "should return 'IL' for 49" do
+    expect(subject.convert(49)).to eq('IL')
+  end
 end
